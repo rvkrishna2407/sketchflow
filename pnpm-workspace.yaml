@@ -3,3 +3,9 @@ packages:
   - "apps/web/*"
   - "apps/web/ws-backend"
   - "packages/*"
+allowBuilds:
+  '@prisma/client': set this to true or false
+  '@prisma/engines': set this to true or false
+  esbuild: false
+  prisma: set this to true or false
+  workerd: false
